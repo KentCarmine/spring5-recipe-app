@@ -42,10 +42,7 @@ public class DataLoader implements CommandLineRunner {
         Ingredient onion = new Ingredient("minced red onion or thinly sliced green onion", new BigDecimal(2), tableSpoonUom);
         Ingredient chillies = new Ingredient("serrano chiles, stems and seeds removed, minced", new BigDecimal(1), blankUom);
         Ingredient cilantro = new Ingredient("cilantro (leaves and tender stems), finely chopped", new BigDecimal(2), tableSpoonUom);
-
-
         Ingredient pepper = new Ingredient("freshly grated black pepper", new BigDecimal(1), dashUom);
-
         Ingredient tomato = new Ingredient("ripe tomato, seeds and pulp removed, chopped", new BigDecimal(0.5), blankUom);
 
         Recipe guacamole = new Recipe();
